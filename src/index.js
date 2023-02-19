@@ -3,6 +3,7 @@ import Notiflix from 'notiflix';
 let debounce = require('lodash.debounce');
  
 const DEBOUNCE_DELAY = 300;
+
 const search = document.getElementById('search-box')  
 
 let array = [] 
