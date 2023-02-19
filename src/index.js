@@ -63,9 +63,13 @@ const logHi = () => {
         countryInfo.innerHTML = ""
       }
     }
-      if (value == "") {
-        list.innerHTML = ""
-        objects = []
+    if (value == "") {
+      list.innerHTML = ""
+      objects = []
+    }
+    if (value.length < 2) {
+      list.innerHTML = ""
+      countryInfo.innerHTML = ""
     }
   }
   if (value.length > 1 && objects.length < 1) {
