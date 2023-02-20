@@ -1,7 +1,7 @@
 import Notiflix from 'notiflix';
 let debounce = require('lodash.debounce');
-import listCountry from './listCountry';
-import itemCountry from './itemCountry';
+import { listCountry } from './listCountry';
+import { itemCountry } from './itemCountry';
  
 const DEBOUNCE_DELAY = 300;
 const search = document.getElementById('search-box')  

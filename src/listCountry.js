@@ -1,4 +1,4 @@
-export default listCountry = (name) => {
+export function listCountry (name) {
     return `
     <li> 
       <img src="${name.flags.svg}" alt="" loading="lazy" />

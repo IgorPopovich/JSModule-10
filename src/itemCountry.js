@@ -1,4 +1,4 @@
-export default itemCountry = (name) => {
+export function itemCountry (name) {
     return `
         <li class="description">
           <div class="top">
