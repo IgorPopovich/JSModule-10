@@ -23,16 +23,18 @@ body {
 li {
   list-style: none; 
   font-size: 30px;
+  height: 30px;
 }
 
 li img {
   width: 30px;
+  height: 20px;
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 7px;
 }
 
-.description li {
+.description .top {
   font-size: 30px;
 }
 
