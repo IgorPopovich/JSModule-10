@@ -38,6 +38,10 @@ li img {
   font-size: 30px;
 }
 
+.itemList {
+  margin-top: 6px;
+}
+
 .description p {
   font-size: 18px;
   font-weight: bold;
