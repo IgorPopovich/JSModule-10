@@ -32,7 +32,8 @@ const logHi = () => {
     }).catch(error => {
       Notiflix.Notify.failure("Oops, there is no country with that name");
     });
-  } else {
+  }
+  if (value.length == 1) {
     list.innerHTML = ""
     Notiflix.Notify.info("Too many matches found. Please enter a more specific name.");
   }
