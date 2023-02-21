@@ -12,11 +12,12 @@ const logHi = () => {
   list.innerHTML = ""
   
   if (value.length > 1) {
-    fetch(`https://restcountries.com/v3.1/name/${value}?fields=name.official,capital,population,flags,languages`)
+    fetch(`https://restcountries.com/v3.1/name/${value}?fields=name,capital,population,flags,languages`)
     .then(response => {
       return response.json()
     }).then(data => {
       let array = data
+      console.log(data)
       list.innerHTML =  array.map((item) => listCountry(item)).join("");
       if (array.length < 2) { 
         list.innerHTML = array.map((item) => 
